@@ -1,0 +1,27 @@
+$colors : (
+    'nav': #ccd5ae,
+    'main': #e9edc9,
+    'main2': #fefae0,
+    'footer': #faedcd,
+    'footer2': #d4a373,
+);
+
+.bg-nav {
+    background-color: map-get($map: $colors, $key: 'nav' );
+}
+
+.bg-main {
+    background-color: map-get($map: $colors, $key: 'main' )
+}
+
+.bg-main2 {
+    background-color: map-get($map: $colors, $key: 'main2' )
+}
+
+.bg-footer {
+    background-color: map-get($map: $colors, $key: 'footer' )
+}
+
+.bg-footer2 {
+    background-color: map-get($map: $colors, $key: 'footer2')
+}
